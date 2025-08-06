@@ -1,0 +1,115 @@
+export const projectsData = [
+  {
+    id: 1,
+    name: "Travel Booking App",
+    description:
+      "I built a full-featured travel booking application using the MERN stack. The app allows users to search for trips, book tickets, view itineraries, and receive booking confirmations via email. I implemented user authentication, role-based access (admin/user), dynamic package filtering, and a secure payment gateway integration. MongoDB stores user and booking data, while Cloudinary handles image uploads.",
+    tools: [
+      "MongoDB",
+      "Express",
+      "React",
+      "NodeJS",
+      "Redux Toolkit",
+      "Tailwind CSS",
+      "JWT",
+      "Cloudinary",
+      "Stripe API",
+      "Multer",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 2,
+    name: "Photograph Finder",
+    description:
+      "I developed a photo search application that helps users find images based on keyword tags using React on the frontend and Spring Boot with MySQL for backend APIs. The system supports user login, saved searches, and image recommendations. Images are stored and fetched dynamically, and APIs are secured using JWT authentication.",
+    tools: [
+      "React",
+      "Spring Boot",
+      "MySQL",
+      "JWT",
+      "Tailwind CSS",
+      "Axios",
+      "Postman",
+      "Hibernate",
+      "React Router",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  {
+    id: 3,
+    name: "DSA Practice App",
+    description:
+      "I built a problem-solving app focused on DSA topics using React and Spring Boot. Users can browse categorized problems, write code, view logic hints, and mark important questions. The app stores progress, supports admin content upload, and is deployed on Azure. It includes a MySQL database and JWT-based login for users and admins.",
+    tools: [
+      "React",
+      "Spring Boot",
+      "MySQL",
+      "JWT",
+      "Azure App Service",
+      "Bootstrap",
+      "React Code Editor",
+      "Axios",
+      "React Router",
+    ],
+    role: "Full Stack Developer",
+    code: "",
+    demo: "",
+  },
+  //   {
+  //     id: 4,
+  //     name: "Smart Car Light App",
+  //     description:
+  //       "This embedded systems project automatically dims a vehicle’s front lights when two cars come close to each other to avoid glare. I built it using Arduino UNO, IR sensors, and LDR modules. The circuit measures light intensity and car proximity in real-time and adjusts headlights accordingly for safety during night driving.",
+  //     tools: [
+  //       "Arduino UNO",
+  //       "IR Sensor",
+  //       "LDR Sensor",
+  //       "C++",
+  //       "Breadboard",
+  //       "LED Lights",
+  //       "Power Supply",
+  //       "Ultrasonic Sensor",
+  //     ],
+  //     role: "Embedded Systems Developer",
+  //     code: "",
+  //     demo: "",
+  //   },
+  {
+    id: 4,
+    name: "Fake News Detection App",
+    description:
+      "I created a machine learning-based web app to classify news articles as fake or real. The model was trained using a labeled dataset with techniques like TF-IDF and Logistic Regression. The app takes text input from users and predicts in real time whether the article is likely to be fake. It features a clean UI and backend APIs for prediction.",
+    tools: [
+      "Python",
+      "Flask",
+      "Scikit-learn",
+      "Pandas",
+      "TF-IDF",
+      "Logistic Regression",
+      "React",
+      "Axios",
+      "Bootstrap",
+    ],
+    role: "ML Developer",
+    code: "",
+    demo: "",
+  },
+];
+
+// Do not remove any property.
+// Leave it blank instead as shown below
+
+// {
+//     id: 1,
+//     name: '',
+//     description: "",
+//     tools: [],
+//     role: '',
+//     code: '',
+//     demo: '',
+// },
