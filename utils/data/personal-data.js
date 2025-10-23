@@ -7,7 +7,7 @@ export const personalData = {
   email: "sasankreddy2211@gmail.com",
   phone: "+91-8688885914",
   address: "ANANATAPUR,ANDHRA-PRADESH,515405 ",
-  github: "https://github.com/sasi098",
+  github: "https://github.com/BCE1931",
   facebook: "https://www.facebook.com/kutakula.sasankreddy",
   linkedIn: "https://www.linkedin.com/in/sasank-reddy-55553726a/",
   twitter: "https://twitter.com",
